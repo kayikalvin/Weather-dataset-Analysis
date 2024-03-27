@@ -6,16 +6,29 @@ The data is avaiilable as a csv file.The datais being analyzed using pandas a py
 # Commands used in the project
 
 -nunique() & unique()
+
 -value_counts()
+
 -Filtering
+
 -groupby
+
 -getgroup()
+
 -isnull()& notnull()
+
 -rename()
+
 -mean()
+
 -std()
+
 -var()
+
 -str.contains
+
 -And(&)operator
+
 -Or(|)Operator
+
 -min() & max()
