@@ -6,7 +6,7 @@ The data is avaiilable as a csv file.The datais being analyzed using pandas a py
 # Commands used in the project
 
 -nunique() & unique()
-- value_counts()
+-value_counts()
 -Filtering
 -groupby
 -getgroup()
