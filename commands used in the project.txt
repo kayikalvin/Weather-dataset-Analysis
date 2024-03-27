@@ -1,4 +1,4 @@
-methods used in the project
+some of the commands used in the project
 
 
 -nunique() & unique()
