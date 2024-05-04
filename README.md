@@ -32,3 +32,6 @@ The data is avaiilable as a csv file.The datais being analyzed using pandas a py
 -Or(|)Operator
 
 -min() & max()
+
+
+![pp](https://github.com/kayikalvin/Weather-dataset-Analysis/assets/161039123/763af298-3ea7-403c-812a-da17862d11dc)
