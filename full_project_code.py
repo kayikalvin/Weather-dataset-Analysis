@@ -294,4 +294,32 @@ weather_dim
 datetime_dim
 
 
+# craeting the final model table from the remodelled data
+
+full_table = pd.DataFrame()full_table['id'] = df['Date/Time']
+
+full_table['date'] = df['Date/Time']
+full_table['date_id'] = datetime_dim['date'].index
+full_table['hour'] = df['Date/Time'].dt.hour
+full_table['day'] = df['Date/Time'].dt.day
+full_table['month'] = df['Date/Time'].dt.month
+full_table['year'] = df['Date/Time'].dt.year
+full_table['weekday'] = df['Date/Time'].dt.weekday
+full_table['temp_C'] = df['Temp_C']
+full_table['dew_point_temp_C'] = df['Dew Point Temp_C']
+full_table['rel hum_%'] = df['Rel Hum_%']
+full_table['wind Speed_km/h'] = df['Wind Speed_km/h']
+full_table['visibility_km'] = df['Visibility_km']
+full_table['press_kPa'] = df['Press_kPa']
+full_table['date_id'] = df['Date/Time'].index
+full_table['weather_Id'] = weather_dim['weather_type'].index
+full_table['weather_type'] = weather_dim['weather_type']
+           
+# Define a dictionary to map numerical weekdays to their respective names
+weekday_names = {0: 'Monday', 1: 'Tuesday', 2: 'Wednesday', 3: 'Thursday', 4: 'Friday', 5: 'Saturday', 6: 'Sunday'}
+
+# Use the map function to apply the mapping to convert numerical weekdays to weekday names
+full_table['weekday'] = datetime_dim['weekday'].map(weekday_names)
+           
+full_table
 
