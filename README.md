@@ -3,6 +3,8 @@ The Weather dataset is a time-series data set with per hour information about th
 visisbility,Presssure and Conditions.
 The data is avaiilable as a csv file.The datais being analyzed using pandas a python library.
 
+![Image Alt Text]([path/to/your/image.png](https://lucid.app/publicSegments/view/66191421-dc24-407a-a130-2f4a3505fdd2/image.png))
+
 # Commands used in the project
 
 -nunique() & unique()
