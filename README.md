@@ -6,7 +6,7 @@ visisbility,Presssure and Conditions.
 The data is avaiilable as a csv file.The datais being analyzed using pandas a python library.
 
 ## Data modell created from the data
-![Data Model](https://lucid.app/publicSegments/view/b7d8b215-fa55-4e33-9f4d-18e8f270a419/image.png))
+![Data Model](https://lucid.app/publicSegments/view/70a34985-32d9-4731-93a0-1ef1df23c541/image.png))
 
 # Commands used in the project
 
