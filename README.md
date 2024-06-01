@@ -8,5 +8,5 @@ The data is avaiilable as a csv file.The datais being analyzed using pandas a py
 ## Data modell created from the data
 ![Data Model](https://lucid.app/publicSegments/view/70a34985-32d9-4731-93a0-1ef1df23c541/image.png)
 
-
+## Dashboard
 ![pp](https://github.com/kayikalvin/Weather-dataset-Analysis/assets/161039123/763af298-3ea7-403c-812a-da17862d11dc)
