@@ -5,9 +5,6 @@ The Weather dataset is a time-series data set with per hour information about th
 visisbility,Presssure and Conditions.
 The data is avaiilable as a csv file.The datais being analyzed using pandas a python library.
 
-## Data modell created from the data
-![Data Model](https://lucid.app/publicSegments/view/70a34985-32d9-4731-93a0-1ef1df23c541/image.png)
-
 ## project solutions
   - Q1. Find all the unique 'Wind Speed' values in the data-
   - Q2. Find the number of items when the "Weather is clear"
@@ -27,5 +24,9 @@ The data is avaiilable as a csv file.The datais being analyzed using pandas a py
   'Weather is clear' and 'Relative Humidity is greater than 50'
   or
   'Visibility is above 40'
+## Data modell created from the data
+![Data Model](https://lucid.app/publicSegments/view/70a34985-32d9-4731-93a0-1ef1df23c541/image.png)
+
+
 ## Dashboard
 ![pp](https://github.com/kayikalvin/Weather-dataset-Analysis/assets/161039123/763af298-3ea7-403c-812a-da17862d11dc)
