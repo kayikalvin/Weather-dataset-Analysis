@@ -9,38 +9,27 @@ visisbility,Presssure and Conditions.
 The data is avaiilable as a csv file.The datais being analyzed using pandas a python library.
 
 ## Purposes Of The Project
-
 The major aim of thie project is to gain insight into the weather parterns and conditions that can be used to predict the weather conditions.
+
 ## About Data
 
-The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting). This dataset contains sales transactions from a three different branches of Walmart, respectively located in Mandalay, Yangon and Naypyitaw. The data contains 17 columns and 1000 rows:
+The Weather dataset is a time-series data set with per hour information about the weather conditions at a particular location. It records Temperature,Dew point Temperature,Relative Humidity,Wind speed,
+visisbility,Presssure and Conditions.
+The data is avaiilable as a csv file.The datais being analyzed using pandas a python library.
+This dataset contains  weather conditions from january 2012  - december 2012. The data contains 8 columns and 8785 rows:
 
-| Column                  | Description                             | Data Type      |
-| :---------------------- | :-------------------------------------- | :------------- |
-| invoice_id              | Invoice of the sales made               | VARCHAR(30)    |
-| branch                  | Branch at which sales were made         | VARCHAR(5)     |
-| city                    | The location of the branch              | VARCHAR(30)    |
-| customer_type           | The type of the customer                | VARCHAR(30)    |
-| gender                  | Gender of the customer making purchase  | VARCHAR(10)    |
-| product_line            | Product line of the product solf        | VARCHAR(100)   |
-| unit_price              | The price of each product               | DECIMAL(10, 2) |
-| quantity                | The amount of the product sold          | INT            |
-| VAT                 | The amount of tax on the purchase           | FLOAT(6, 4)    |
-| total                   | The total cost of the purchase          | DECIMAL(10, 2) |
-| date                    | The date on which the purchase was made | DATE           |
-| time                    | The time at which the purchase was made | TIMESTAMP      |
-| payment_method          | The total amount paid                   | DECIMAL(10, 2) |
-| cogs                    | Cost Of Goods sold                      | DECIMAL(10, 2) |
-| gross_margin_percentage | Gross margin percentage                 | FLOAT(11, 9)   |
-| gross_income            | Gross Income                            | DECIMAL(10, 2) |
-| rating                  | Rating                                  | FLOAT(2, 1)    |
+| Column                  | Description                             | 
+| :---------------------- | :-------------------------------------- | 
+| Date/Time               | The date and time the conditions were meadured             |
+| Temp_C                  | Temperature        | 
+| Dew Point               | Dew point               | 
+| Wind Speed_km/h         | Speed of wind|
+| Visibility_km           | Visibility per kilometers| 
+| Press_kPa               | atmospheric pressure              |
+| Weather                 | Type of weather condition         |
 
 
-### Model
-![Data Model](https://lucid.app/publicSegments/view/70a34985-32d9-4731-93a0-1ef1df23c541/image.png)
 
-## Dashboard
-![pp](https://github.com/kayikalvin/Weather-dataset-Analysis/assets/161039123/763af298-3ea7-403c-812a-da17862d11dc)
 
 
 
@@ -77,14 +66,6 @@ The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition]
 3. **Conclusion:**
 
 ## Business Questions To Answer
-
-### Generic Question
-
-1. Find all the unique 'Wind Speed' values in the data
-2. Find out all the Null Values in the data
-
-
-## project solutions
   - Q1. Find the number of items when the "Weather is clear"
   - Q2. Find the number of times when the 'Wind Speedd was exactly 4 km/h' 
   - Q3. Rename the column name 'Weather' of the dataframe to 'Weather Condition'
@@ -101,6 +82,20 @@ The dataset was obtained from the [Kaggle Walmart Sales Forecasting Competition]
   'Weather is clear' and 'Relative Humidity is greater than 50'
   or
   'Visibility is above 40'
+
+### Generic Question
+
+1. Find all the unique 'Wind Speed' values in the data
+2. Find out all the Null Values in the data
+
+
+
+### Model
+![Data Model](https://lucid.app/publicSegments/view/70a34985-32d9-4731-93a0-1ef1df23c541/image.png)
+
+## Dashboard
+![pp](https://github.com/kayikalvin/Weather-dataset-Analysis/assets/161039123/763af298-3ea7-403c-812a-da17862d11dc)
+
 
 
 
