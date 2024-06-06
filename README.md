@@ -65,7 +65,7 @@ This dataset contains  weather conditions from january 2012  - december 2012. Th
 
 3. **Conclusion:**
 
-## Business Questions To Answer
+## Weather Questions To Answer
   - Q1. Find the number of items when the "Weather is clear"
   - Q2. Find the number of times when the 'Wind Speedd was exactly 4 km/h' 
   - Q3. Rename the column name 'Weather' of the dataframe to 'Weather Condition'
